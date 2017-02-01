@@ -1,5 +1,6 @@
-<a href="http://www.zeitschriftendatenbank.de"><img style="position: absolute; top: 0; right: 0; border: 0;" src="zdb_ohne_schrift_gross.gif" alt="Zeitschriftendatenbank" ></a>
-
+<div>
+<a href="http://www.zeitschriftendatenbank.de"><img style="position: absolute; top: 0; right: 0; border: 0;" src="zdb_ohne_schrift_klein_besser.gif" alt="Zeitschriftendatenbank" ></a>
+</div>
 # WinIBW-Suchtipps
 
 ## Suche im Katalogisierungssystem (CBS) mit Hilfe der WinIBW
