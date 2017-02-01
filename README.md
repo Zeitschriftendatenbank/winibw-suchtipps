@@ -1,6 +1,6 @@
 # WinIBW-Suchtipps
 
-## Suche im Katalogisierungssystem (CBS) mit Hilfe der WInIBW
+## Suche im Katalogisierungssystem (CBS) mit Hilfe der WinIBW
 
 ### Grundlagen der Suche in der WinIBW
 
