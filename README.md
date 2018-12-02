@@ -12,7 +12,7 @@
 
 Bei umfangreichen Selektionen kann es sinnvoll sein, mehrere Suchanfragen zu kombinieren, anstatt eine einzelne sehr komplexe Suchanfrage zu stellen.
 
-Grundsätzlich wird bei jeder Suchanfrage ein Set gebildet, welches über `set<SETNUMMER>` bzw. `s<SETNUMMER>` zu verfügung steht. 
+Grundsätzlich wird bei jeder Suchanfrage ein Set gebildet, welches über `set<SETNUMMER>` bzw. `s<SETNUMMER>` zur Verfügung steht. 
 Diese Sets können mit Hilfe von Boolschen Operatoren (und, oder, nicht) kombiniert werden. 
 
 ##### Schema
@@ -352,7 +352,7 @@ Es werden alle Titel ermittelt, die mit Exemplardatensätze der Martin-Opitz-Bib
 
 ##### Erläuterung 
 
-Es werden alle Titel ermittelt, die mit Exemplardatensätze der Rheinischen Landesbibliothek (Sigel 929) verknüpft sind und mit forlaufenden Bestand gekennzeichnet sind.
+Es werden alle Titel ermittelt, die mit Exemplardatensätze der Rheinischen Landesbibliothek (Sigel 929) verknüpft sind und mit fortlaufenden Bestand gekennzeichnet sind.
 
 ---
 
