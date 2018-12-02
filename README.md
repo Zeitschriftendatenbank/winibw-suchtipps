@@ -12,12 +12,13 @@
 
 Bei umfangreichen Selektionen kann es sinnvoll sein, mehrere Suchanfragen zu kombinieren, anstatt eine einzelne sehr komplexe Suchanfrage zu stellen.
 
-Grundsätzlich wird bei jeder Suchanfrage ein Set gebildet, welches über set<SETNUMMER> bzw. s<SETNUMMER> zu verfügung steht. 
+Grundsätzlich wird bei jeder Suchanfrage ein Set gebildet, welches über `set<SETNUMMER>` bzw. `s<SETNUMMER>` zu verfügung steht. 
 Diese Sets können mit Hilfe von Boolschen Operatoren (und, oder, nicht) kombiniert werden. 
 
 ##### Schema
 
     f s<SETNUMMER> [UND ODER NICHT] s<SETNUMMER> [[UND ODER NICHT] s<SETNUMMER>[...]]
+    
 ##### Beispiel
 
     f s1 NICHT s2
@@ -236,7 +237,7 @@ Jetzt haben Sie alles zusammen. Fügen Sie ILN und Zeitraum in diese Abfrage ein
 
 Die entstandene Treffermenge können Sie dann entweder speichern: 
 
-dow s<SETNUMMER IHRER GRAVKORR-LISTE> grav
+    dow s<SETNUMMER IHRER GRAVKORR-LISTE> grav
 
 ...oder Sie drucken Sie aus: 
 
@@ -272,6 +273,7 @@ Zeitschriften, die 1955 oder früher begonnen haben und 1955 noch erschienen sin
     f (EJB 1[45678]!! or 19[01234]! or 195[012345]!) not (EJE 1[45678]!! or 19[01234]! or 195[01234])
 
 Zeitschriften. die in den Jahren 1988 –2000 durchgängig verzeichnet sind 
+
     f ((EJB 1[45678]!! or 19[012345678]!) not EJB 1989) not EJE 1!!!
 
 ##### Erläuterung
